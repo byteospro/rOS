@@ -2,7 +2,7 @@
 
 Welcome to **rOS**, a custom-tailored, lightweight, and highly portable operating system built for developers, power users, and tech enthusiasts. Designed to run completely live from a single USB drive, rOS gives you an indestructible desktop environment you can carry in your pocket.
 rOS is distributed as a monolithic system image. To modify or contribute, download the ISO and unpack the squashed filesystem.
-
+SCROLL AT THE BOTTOM FOR DOWNLOAD LINK
 ---
 
 ## ✨ Features
@@ -44,3 +44,7 @@ We follow a structured adaptation of Semantic Versioning to track development:
 
 This project is proudly licensed under the **GNU General Public License v3 (GPLv3)**. This ensures that rOS remains free, open-source, and community-driven forever. 
 
+## 📲 | DOWNLOAD |
+
+https://drive.google.com/file/d/1r3lNmvvEcIGmtmaiAGzQtJVr6FT0i_lb/view?usp=drive_link
+    
