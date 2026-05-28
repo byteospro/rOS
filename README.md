@@ -11,6 +11,7 @@ SCROLL AT THE BOTTOM FOR DOWNLOAD LINK
 Credentials Are Here For The Live System - 
 
 Username - ros
+
 password and sudo password - ros
 
 ---
@@ -54,7 +55,134 @@ We follow a structured adaptation of Semantic Versioning to track development:
 
 This project is proudly licensed under the **GNU General Public License v3 (GPLv3)**. This ensures that rOS remains free, open-source, and community-driven forever. 
 
+## 📜  Log
+
+Here is the log which i made to tell how this OS was developed - 
+
+rOS 2.0.0 Build Log
+
+Base:
+
+* Ubuntu MATE 20.04 (VM)
+
+Cleanup (Debloat):
+
+* Removed: libreoffice*, thunderbird, aisleriot, gnome-mahjongg, gnome-mines, gnome-sudoku
+* Removed: rhythmbox, transmission*, cheese
+* Removed: hexchat, pidgin, simple-scan, drawing
+* Removed: firefox
+* Removed: snapd
+* Removed: fonts-noto-cjk
+* Removed: mate-user-guide
+
+System Optimization:
+
+* Disabled: bluetooth.service
+* Disabled: cups.service
+* Disabled: avahi-daemon.service
+* Disabled: update-notifier
+* Disabled: compositing (MATE settings)
+
+Base Features Installed:
+
+* neofetch (system info branding)
+* htop, bashtop (system monitoring)
+* gnome-disk-utility, gparted (disk tools)
+* vlc (media player)
+* featherpad (lightweight text editor)
+* synaptic (GUI package manager)
+* curl, wget, git (core tools)
+* zenity (GUI dialogs for scripts)
+* cowsay, lolcat (fun/branding)
+
+Custom System Setup:
+
+* Created directory: /opt/rOS-apps/packs
+* Added script packs:
+
+  * gamer.sh
+  * student.sh
+  * dev.sh
+  * minimal.sh
+* Made scripts executable
+
+System State:
+
+* Idle RAM ~860MB
+* Swap usage minimal
+
+- Replaced: bashtop → btop (not available in repo)
+- Skipped: btop -> Not AVailable
+- Used .bashrc to enforce custom neofetch ASCII branding
+- Added custom neofetch branding via .bashrc (forced ASCII method)
+- Terminal now shows rOS 2.0.0 branding on launch
+
+- Customized desktop UI:
+  - Applied Arc-Dark theme
+  - Applied Papirus icons
+  - Modified panel layout
+  - Set custom wallpaper (rOS branding)
+  - Cleaned desktop icons
+  
+  - Reset /opt/rOS-apps structure
+- Recreated all script packs cleanly
+- Improved app selection for Gamer, Student, Dev, Minimal packs
+- Rebuilt Welcome App using YAD
+- Added button-based UI for pack selection
+- Enabled auto-start on login
+
+- Rebuilt Welcome App v2
+- Added startup toggle checkbox
+- Added buttons for packs, HTML apps, Control Center, About
+- Replaced old welcome app autostart
+
+- Created rOS Special Control Center
+- Added cleanup/update/system info tools
+- Integrated script packs into control center
+- Added desktop launcher
+- Added rOS Welcome to applications menu
+- Added rOS Control Center to applications menu
+- Registered desktop entries
+
+- Created rStore HTML application
+- Added built-in packs section
+- Added desktop launcher for rStore
+- Rebuilt rStore using YAD
+- Rebuilt About rOS using YAD
+- Removed browser dependency for core apps
+- Improved startup speed and native feel
+- Removed Luakit browser
+- Removed old HTML-based rStore launcher
+- Switched core apps fully to YAD
+- Created rNotes sticky-note style app
+- Added persistent note saving
+- Added applications menu launcher
+- Created rArcade game hub
+- Added DVD Bounce simulator
+- Added Fake Hacker terminal
+- Added Clicker mini-game
+- Added applications menu launcher
+- Made rNotes App
+-Fixed Menu Problem WIth rNotes
+- Created rBrowser Start app
+- Added quick web links and system shortcuts
+- Added applications menu launcher
+- Created rCleaner utility
+- Added cache cleanup tools
+- Added temp file cleanup
+- Added applications menu launcher
+- Created rSysInfo app
+- Added RAM, CPU, disk, uptime, kernel information
+- Added applications menu launcher
+- Installed Audacious lightweight music player
+- Created rMusic music hub
+- Added music folder integration
+- Added applications menu launcher
+- Created rFiles Guide app
+- Added filesystem and folder explanations
+- Added applications menu launcher
+
 ## 📲 | DOWNLOAD |
 
-https://drive.google.com/file/d/1r3lNmvvEcIGmtmaiAGzQtJVr6FT0i_lb/view?usp=drive_link
+ rOS 2.0.0 - https://drive.google.com/file/d/1r3lNmvvEcIGmtmaiAGzQtJVr6FT0i_lb/view?usp=drive_link
     
