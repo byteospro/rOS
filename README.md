@@ -182,7 +182,28 @@ System State:
 - Added filesystem and folder explanations
 - Added applications menu launcher
 
+  #rOS 2.1.1 [BETA] Update Log
+
+  Change Log For rOS 2.1.1
+
+-----
+
+1. Added Libreoffice Suite Back. 
+2. Fixed Minor Bugs. 
+3. Removed Firefox. 
+4. Added Firefox ESR. 
+5. [BETA] Added Local Repository For .deb Packages Tailored To The Core of rOS. 
+6. Terminal Colour Scheme Has Been Changed. 
+7. Revamped The look of the panels. 
+
+[NOTE THAT THE RELEASE rOS 2.1.1 WILL BE IN BETA FOR 1 MONTH]
+
+
+-----
+
+
 ## 📲 | DOWNLOAD |
 
- rOS 2.0.0 - https://drive.google.com/file/d/1r3lNmvvEcIGmtmaiAGzQtJVr6FT0i_lb/view?usp=drive_link
-    
+ rOS 2.0.0 [STABLE] - https://drive.google.com/file/d/1r3lNmvvEcIGmtmaiAGzQtJVr6FT0i_lb/view?usp=drive_link
+
+ rOS 2.1.1 [BETA] - https://drive.google.com/file/d/1CrOOlK_JMGdvadEHH7_Pqi8TKgmeGQGe/view?usp=sharing
