@@ -182,7 +182,7 @@ System State:
 - Added filesystem and folder explanations
 - Added applications menu launcher
 
-  #rOS 2.1.1 [BETA] Update Log
+  # rOS 2.1.1 [BETA] Update Log
 
   Change Log For rOS 2.1.1
 
